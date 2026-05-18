@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, ArrowRight, ArrowLeft, RefreshCw } from 'lucide-react';
-import beforeAfterImg from '../assets/before-after.png';
 
 interface ShowcaseItem {
   id: number;
@@ -22,7 +21,7 @@ export default function BeforeAfter() {
       id: 0,
       title: "Vtg Air Max 90 Restoration",
       category: "Complete Clean & Whitening",
-      image: beforeAfterImg,
+      image: "/images/before-after.png",
       dirtyLabel: "Dirty & Oxidized Sole",
       cleanLabel: "Crispy Spotless Clean",
       details: ["Deep mesh soak", "Oxidation reversal", "Sole whitening treatment", "Deodorization soak"]
@@ -31,7 +30,7 @@ export default function BeforeAfter() {
       id: 1,
       title: "Yeezy 350 Suede Refresh",
       category: "Suede Restoration",
-      image: beforeAfterImg, // reusing high quality sneaker comparison as main element
+      image: "/images/before-after.png", // reusing high quality sneaker comparison as main element
       dirtyLabel: "Matted, Muddy Suede",
       cleanLabel: "Soft Nap Raised Suede",
       details: ["Soft-nap dry brush", "Eco suede shampoo wash", "Velour fiber comb", "Waterproofing shield"]
@@ -40,7 +39,7 @@ export default function BeforeAfter() {
       id: 2,
       title: "Jordan 1 Retro Chicago Custom",
       category: "Paint & Midsole Restoration",
-      image: beforeAfterImg,
+      image: "/images/before-after.png",
       dirtyLabel: "Scuffed & Creased Paint",
       cleanLabel: "Hand-painted Leather Fix",
       details: ["Iron crease removal", "Paint prep stripping", "Custom leather color repaint", "Matte top-coat protect"]

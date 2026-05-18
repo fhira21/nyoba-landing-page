@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Sparkles, Calendar, ArrowRight } from 'lucide-react';
-import heroSneaker from '../assets/hero-sneaker.png';
 
 export default function Hero() {
   return (
@@ -132,7 +131,7 @@ export default function Hero() {
             className="relative z-10 w-full max-w-[340px] sm:max-w-[460px] cursor-grab active:cursor-grabbing hover:scale-105 transition-transform duration-500"
           >
             <img 
-              src={heroSneaker} 
+              src="/images/hero.png" 
               alt="Premium Clean Sneaker Floating" 
               className="w-full h-auto drop-shadow-[0_20px_50px_rgba(244,143,104,0.3)] filter brightness-105"
             />
